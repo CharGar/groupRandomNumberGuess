@@ -7,8 +7,8 @@ Base Mode:
 =
 
 The final version of this project will have two modes:
- 
-- setup mode 
+
+- setup mode
 - play mode
 
 ### Tech: Node, Express, and JQuery
@@ -16,9 +16,9 @@ The final version of this project will have two modes:
 Setup Mode
 -
 
-Inputs on the web page: 
+Inputs on the web page:
 
-- Maximum Number selector (at least 3 options) 
+- Maximum Number selectorat least 3 options) 
 - Start Game button
 
 ## Play Mode
@@ -46,7 +46,7 @@ Once you get it working, style it up, yo!
 Hard Mode:
 -
 
-See how many of these you can implement in the given time. Remember to test when applying a feature and make sure your 
+See how many of these you can implement in the given time. Remember to test when applying a feature and make sure your
 
 - disallow two users two submit the same guess at the same time
 - disallow any guess to be entered more than once

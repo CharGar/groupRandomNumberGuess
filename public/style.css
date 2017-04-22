@@ -1,0 +1,80 @@
+#spanOne{
+
+}
+#spanTwo{
+
+}
+#spanThree{
+
+}
+#spanFour{
+
+}
+h1{
+  text-align: center;
+  color:silver;
+  text-shadow: 4px 4px 4px red;
+}
+body{
+  /*background-image: url('giphy.gif');*/
+}
+
+
+.playersDiv{
+  color:silver;
+}
+
+.medium {
+  width:200px;
+  height:150px;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.easy{
+  width:200px;
+  height:150px;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.hard {
+  width:200px;
+  height:150px;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.guesses{
+  margin-left: 43%;
+  width:200px;
+  height:50px;
+}
+
+p, .guessesRemaining{
+  text-align: center;
+  font-size: 90px;
+  color: red;
+  text-shadow: 7px 7px 7px white;
+}
+.buttonContainer{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.playersDiv{
+  text-align: center;
+}
+
+.input{
+  width:150px;
+  height:55px;
+  background-color: pink;
+  font-size: 20px
+}

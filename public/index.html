@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="random.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="client.js"></script>
+    <title>Random Number Guess</title>
+  </head>
+<body>
+<h1>Random Number Guess</h1>
+
+<div class="buttonContainer">
+  <button class ="easy" type= "button" data-name="difficulty">Easy Mode (1-10)</button>
+  <button class ="medium" type= "button" data-name="difficulty">Medium Mode (1-30)</button>
+  <button class ="hard" type= "button" data-name="difficulty">Hard Mode (1-60)</button>
+  </div>
+<div class="guessContainer">
+  <input type="number" class ='guesses' placeholder='how many guesses do you want?' value="">
+  <button class ="input" type= "button">Send</button>
+</div>
+
+  <div class= "guessesRemaining">
+    <p>Guesses Remaining:<span type ='number' class='ticker'> </span></p>
+</div>
+<div class="upNext">  
+</div>
+<div class = 'playersDiv'>
+<div class ='playerNumber'>Player 1<input type='number' id="one" class= 'players' placeholder = 'take a guess'></input><button class='guess'>Guess</button><span id='spanOne'>0</span></div>
+<div class ='playerNumber'>Player 2<input type='number' id= 'two' class= 'players' placeholder = 'take a guess'></input><button class='guess'>Guess</button><span id= 'spanTwo'>0</span></div>
+<div class ='playerNumber'>Player 3<input type='number' id= 'three' class= 'players' placeholder = 'take a guess'></input><button class='guess'>Guess</button><span id= 'spanThree'>0</span></div>
+<div class ='playerNumber'>Player 4<input type='number' id= 'four' class= 'players' placeholder = 'take a guess'></input><button class='guess'>Guess</button><span id= 'spanFour'>0</span></div>
+</div>
+
+
+
+</body>
+
+</html>
